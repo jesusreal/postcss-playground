@@ -1,0 +1,14 @@
+:root {
+  --color-root-1: red;
+  --color-root-2: white;
+}
+
+.fd-shellbar {
+  --color-block-bg: blue;
+  --color-block-2: var(--color-root-2);
+  color: red;
+  color: var(--color-root-1);
+  background-color: var(--color-block-bg);
+  color: var(--color-block-2);
+}
+

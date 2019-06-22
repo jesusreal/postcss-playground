@@ -1,0 +1,17 @@
+{
+  "name": "postcss-playgrouund",
+  "version": "0.1.1",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3"
+  },
+  "scripts": {
+    "bundle": "webpack --config webpack-postcss.config.js --display-error-details"
+  }
+}
